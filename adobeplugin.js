@@ -8,5 +8,7 @@ var aa_aaa_aaaaaaaaasdf = this;//videojs.getPlayer("#vjs_video_3_html5_api");
       console.log(message);
       console.log(media_id);
       console.log(this);
+        console.log(this['mediainfo']);
+        console.log(this.mediainfo);
     });
 });
