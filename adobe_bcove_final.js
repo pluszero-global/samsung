@@ -5,6 +5,6 @@ var aa_aaa_aaaaaaaaasdf = this;//videojs.getPlayer("#vjs_video_3_html5_api");
     message = "brcove_" + media_id;
     aa_aaa_aaaaaaaaasdf.on("play", function(){
      parent.postMessage(message, "*");
-        console.log("testestest");
+        console.log("media_id");
     });
 });
